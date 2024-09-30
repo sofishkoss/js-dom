@@ -1,0 +1,362 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    background-color: white;
+}
+
+.background-first {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/background.jpg');
+}
+
+/*/!!!!!*/
+
+.line2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 4px;
+    background-color: #f5bd41;
+    border: 2px;
+}
+
+.triphouse {
+    color: #3077c6;
+    font-family: Ebrima;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 51px 104px;
+    /*margin-left:104px;*/
+    /*margin-top:51px;*/
+    margin-bottom: 120px;
+}
+
+.wi {
+    width: 100px;
+}
+
+.stays {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+    flex-direction: row;
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+    padding: 57px;
+
+    font-weight: bold;
+}
+
+.pols {
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+    flex-direction: row;
+    color: white;
+    margin-right: 300px;
+    margin-top: 57px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.just-middle {
+    display: flex;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 104px;
+}
+
+.simple-text {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 128px;
+    margin-top: 80px;
+}
+
+.nnn {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bott {
+    display: flex;
+    width: 85%;
+    height: 64px;
+    background-color: white;
+    margin-left: 104px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bott-in {
+    width: 300px;
+    height: 64px;
+    background-color: white;
+    border-color: #f5bd41;
+    border-radius: 8px;
+    border-width: 3px;
+    margin-left: 600px;
+}
+
+.bott-button {
+    width: 250px;
+    height: 64px;
+    background-color: #3077c6;
+    border-color: #3077c6;
+    border-radius: 8px;
+    margin-left: 490px;
+}
+
+.search {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.downland {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+}
+
+.downland-g {
+    display: flex;
+    width: 135px;
+    height: 40px;
+    margin-left: 40%;
+}
+
+.downland-a {
+    display: flex;
+    width: 135px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.container-f {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 51px 104px;
+}
+
+.background {
+    width: 100vw;
+    background-color: #eaf0f9;
+}
+
+.object {
+    width: 25%;
+    gap: 1px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 104px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #383838;
+}
+.name_picture {
+    font-size: 25px;
+    font-weight: 500;
+    color: #3d98ff;
+}
+
+.icons {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.item_small {
+    font-size: 20%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_middle {
+    font-size: 25%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item_large {
+    font-size: 33.3%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text_location {
+    font-size: 25px;
+    font-weight: 10;
+    color: #cecece;
+}
+
+.section-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.section-row2 {
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.large_picture {
+    width: 400px;
+    height: 400px;
+}
+
+.middle_picture {
+    width: 300px;
+    height: 300px;
+}
+
+.small_picture {
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: 300px;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(50%, 50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.items:hover .image {
+    opacity: 0.3;
+}
+
+.items:hover .middle {
+    opacity: 1;
+}
+
+.items {
+    position: relative;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 16px;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.footer-min {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 650px;
+    background-color: #10367c;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 21px;
+    margin-left: 130px;
+    margin-top: 150px;
+    margin-right: 130px;
+    /*height: 500px; не получается сделать footer-inc снизу,поэтому так пока что*/
+}
+
+.bolt {
+    font-weight: bold;
+}
+
+.footer-font {
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.footer-inc {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.section-title {
+    /*display: inline-block;*/
+    position: relative;
+}
+
+.section-title:hover::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    top: 35px;
+    background-color: #f5bd41;
+    font-size: 11px;
+    padding: 2px;
+    text-align: center;
+}
