@@ -116,22 +116,48 @@
 }
 
 .bott-in {
-    width: 300px;
+    width: 25%;
     height: 64px;
     background-color: white;
     border-color: #f5bd41;
     border-radius: 8px;
     border-width: 3px;
-    margin-left: 600px;
 }
 
 .bott-button {
-    width: 250px;
+    width: 10%;
     height: 64px;
     background-color: #3077c6;
     border-color: #3077c6;
     border-radius: 8px;
-    margin-left: 490px;
+
+
+}
+
+.f-text{
+    width: 40%;
+    height: 64px;
+    background-color: white;
+    border-color: #f5bd41;
+    border-radius: 8px;
+    border-width: 3px;
+}
+
+.l-text{
+
+    width: 25%;
+    height: 64px;
+    background-color: white;
+    border-color: #f5bd41;
+    border-radius: 8px;
+    border-width: 3px;
+
+}
+
+.text-lob{
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: 70;
 }
 
 .search {
