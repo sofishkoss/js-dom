@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/index.css" />
-        <link rel="stylesheet" href="js/index.js" />
+        <script src="./js"></script>
             <title>booking.com</title>
         </head>
         <body>
@@ -28,12 +28,36 @@
                 </div>
                 <div class="bott">
                     <button class="f-text"><div class="text-lob">New York</div></button>
-                    <button class="bott-in"><div class="text-lob">Check-in — Check-out</div></button>
-                    <button class="l-text"><div class="text-lob">Adults-Children-Rooms</div></button>
+                    <input  type="button"  value = "Check-in — Check-out" onclick="viewDiv()" class="bott-in">
+                       <div style="display: none" id="div1">
+                           <div class="calendar">
+                               <div>
+                                  <div class="calendar-data">December 2024</div>
+                                   <div class="calendar-days">
+                                       <div>Mo</div> <div>Tu</div> <div>We</div> <div>Th</div> <div>Fr</div> <div>Sa</div> <div>Su</div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div>
+                                   </div>
+                               </div>
+                               <div>
+                               <div class="calendar-data">January 2025</div>
+                               <div class="calendar-days">
+                                   <div>Mo</div> <div>Tu</div> <div>We</div> <div>Th</div> <div>Fr</div> <div>Sa</div> <div>Su</div><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div>
+                               </div>
+                               </div>
+                           </div>
+                       </div>
+                    <input  type="button"  value = "Adults-Children-Rooms" onclick="viewDiv2()" class="l-text">
+                    <div style="display: none" id="div2">
+                        <div class="adults">
+                            <div class="adults2">
+                                <div>Adults</div> <div style="color: #3d98ff">+</div> <div>0</div> <div style="color: #3d98ff">-</div><div>Children</div> <div style="color: #3d98ff">+</div> <div>0</div><div style="color: #3d98ff">-</div> <div>Rooms</div><div style="color: #3d98ff">+</div><div>1</div><div style="color: #3d98ff">-</div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <button class="l-text"><div class="text-lob">Adults-Children-Rooms</div></button>-->
 
-                    <button class="bott-button">
-                        <div class="search">Search</div>
-                    </button>
+<!--                    <button class="bott-button">-->
+<!--                        <div class="search">Search</div>-->
+<!--                    </button>-->
                 </div>
                 <div class="downland">
                     <img class="downland-g" src="images/googleplay.jpg" />
